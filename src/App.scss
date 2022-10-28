@@ -178,12 +178,6 @@ body {
               visibility: visible;
               opacity: 1;
             }
-
-            &:focus {
-              svg {
-                outline: #d0d5dd solid 5px !important;
-              }
-            }
           }
         }
 
@@ -200,8 +194,6 @@ body {
           span:nth-child(2n) {
             display: none;
           }
-
-        
         }
       }
 
@@ -280,7 +272,7 @@ body {
 
       @media screen and (max-width: 650px) {
         flex-direction: column;
-        row-gap: 8px;
+        row-gap: 12px;
         align-items: flex-start;
       }
     }
