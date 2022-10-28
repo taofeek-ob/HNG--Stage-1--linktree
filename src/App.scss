@@ -69,6 +69,12 @@ body {
               filter: brightness(50%);
             }
 
+            @media screen and (max-width: 500px) {
+              &:focus {
+                outline: none;
+              }
+            }
+
             .camera {
               display: block;
               img {
