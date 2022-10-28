@@ -1,24 +1,8 @@
 import React from "react";
-import Share from "../assets/share.png";
-import ShareMobile from "../assets/share-mobile.png";
 import Slack from "../assets/slack.svg";
 import Github from "../assets/github.svg";
 import Camera from "../assets/camera.svg";
 const LinkSection = () => {
-  function myFunction() {
-    var copyText = document.getElementById("myInput");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
-
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copied: " + copyText.value;
-  }
-
-  function outFunc() {
-    var tooltip = document.getElementById("myTooltip");
-    tooltip.innerHTML = "Copy to clipboard";
-  }
   return (
     <section>
       <a href="https://twitter.com/taofeek_ob" id="btn_twitter">
@@ -167,7 +151,7 @@ const MainSection = () => {
           </div>
 
           <div className="profile-links">
-            <span id="twitter">@taofeek_ob</span>
+            <span id="twitter">taofeek_ob</span>
             <span id="slack">Taofeek</span>
           </div>
         </div>
