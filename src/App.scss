@@ -246,9 +246,7 @@ body {
       column-gap: 2rem;
 
       a {
-        img {
-          padding-top: 10px;
-        }
+        display: flex;
       }
     }
   }
