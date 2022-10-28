@@ -21,10 +21,10 @@ const LinkSection = () => {
       >
         Python Books
       </a>
-      <a href="https://background.zuri.team/" id="pitch">
+      <a href="https://backgroundcheck.zuri.team/" id="pitch">
         Background Check for Coders
       </a>
-      <a href="https://books.zuri.team/design-rules" id="book_design">
+      <a href="https://books.zuri.team/design-rules" id="book__design">
         Design Books
       </a>
     </section>
