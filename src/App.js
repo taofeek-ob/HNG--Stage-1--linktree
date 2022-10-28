@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { MainSection, FooterSection } from "./components";
 import "./App.scss";
 

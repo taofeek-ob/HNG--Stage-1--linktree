@@ -10,11 +10,11 @@ const FooterSection = () => {
       </div>
       <div className="about">
         <div>
-          <img src={Zuri} />
+          <img src={Zuri} alt="zuri logo" />
         </div>
         <div>HNG Internship 9 Frontend Task</div>
         <div>
-          <img src={IG4} />
+          <img src={IG4} alt="IG4 logo" />
         </div>
       </div>
     </footer>
