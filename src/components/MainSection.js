@@ -8,22 +8,39 @@ const LinkSection = () => {
       <a href="https://twitter.com/taofeek_ob" id="btn_twitter">
         Twitter Link
       </a>
-      <a href="https://training.zuri.team/" id="btn__zuri">
+      <a
+        href="https://training.zuri.team/"
+        id="btn__zuri"
+        title="A cohort for basic introduction to software development and product design aimed at complete beginners, which anyone can join"
+      >
         Zuri Team
       </a>
-      <a href="https://books.zuri.team" id="books">
+      <a
+        href="https://books.zuri.team"
+        id="books"
+        title="A repository of design and coding books"
+      >
         Zuri Books
       </a>
       <a
         href="https://books.zuri.team/python-for-beginners?ref_id=taofeek"
         id="book_python"
+        title="A full and simplified intro to python for beginners"
       >
         Python Books
       </a>
-      <a href="https://backgroundcheck.zuri.team/" id="pitch">
+      <a
+        href="https://backgroundcheck.zuri.team/"
+        id="pitch"
+        title="A fast, accurate, and affordable background checking service to help employers determine whether an applicants is trustworthy"
+      >
         Background Check for Coders
       </a>
-      <a href="https://books.zuri.team/design-rules" id="book__design">
+      <a
+        href="https://books.zuri.team/design-rules"
+        id="book__design"
+        title="A free design books containing world-class tips & guidelines needed to create truly professional designs"
+      >
         Design Books
       </a>
     </section>
