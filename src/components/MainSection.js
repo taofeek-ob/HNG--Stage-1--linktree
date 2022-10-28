@@ -24,7 +24,7 @@ const LinkSection = () => {
       </a>
       <a
         href="https://books.zuri.team/python-for-beginners?ref_id=taofeek"
-        id="book_python"
+        id="book__python"
         title="A full and simplified intro to python for beginners"
       >
         Python Books
